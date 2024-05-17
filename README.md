@@ -11,19 +11,13 @@ AppliedBenfordsLaw.java: The main application class to run the Benford's Law ana
 BenfordClient.java: The client class to send data to the server for analysis.
 BenfordServer.java: The server class that receives data from clients and performs the analysis.
 BenfordsLaw.java: The core logic for Benford's Law computations.
-How to Run
-Compile the Java files:
 
-### sh
-Copy code
-javac *.java
-Start the server:
+### How to Run
+##### Compile the Java files:
+javac *.java 
 
-### sh
-Copy code
+##### Start the server:
 java BenfordServer
-Run the client with your data:
 
-### sh
-Copy code
+##### Run the client with your data:
 java BenfordClient <datafile>
